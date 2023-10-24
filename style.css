@@ -49,3 +49,16 @@ ul {
     align-items: center;
     justify-content: flex-end;
 }
+
+main {
+    background-color: gray;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section {
+    align-self: center;
+    
+}
