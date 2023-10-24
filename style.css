@@ -5,3 +5,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Poppins;
+}
+
+li {
+    list-style: none;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 20px;
+    width: 170px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+header {
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+nav {
+    flex-grow: 0.9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
