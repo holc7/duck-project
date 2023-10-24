@@ -7,87 +7,101 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="./resources/bird_2-removebg-preview.png" alt="logo" width="80px">
+    <div class="background-container"> 
+        <header>
+            <div class="logo">
+                <img width="80" height="80" src="https://img.icons8.com/color/80/rubber-duck.png" alt="rubber-duck">
+            </div>
             <p class="logo-name">DUCK SITE</p>
-        </div>
-        <nav>
-            <li><a href=""></a>Home</li>
-            <li><a href=""></a>Talk to the duck</li>
-            <li><a href=""></a>Emergency Kit</li>
-            <li><a href=""></a>Contact</li>
-        </nav>
-    </header>
-
-    <main>
-        <div class="hero-section">
-            <h1>Hello World</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam delectus sapiente repellat voluptates itaque dicta ut, veniam ad nemo quae.</p>
-        </div>
-    </main>
-
-    <section class="duck-section">
-      <div class="duck-text-button">
-        <div class="duck-text">This page is about ducks and debugging ducks</div>
-        <button class="duck-button">DUCK BUTTON</button>
-      </div>    
+            <nav>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#hero-section">Talk to the duck</a></li>
+                <li><a href="#emergency-section">Emergency Kit</a></li>
+                <li><a href="#contact-us__wrapper">Contact</a></li>
+            </nav>
+        </header>
+    
+        <main>
+            <div id="hero-section">
+                <h1>Hello World</h1>
+                <p>Ever talked to a rubber duck about your code? It's not quackers! It's called 'rubber duck debugging', where developers chat with their ducky pals to untangle tricky code. Who knew ducks were such good listeners? Maybe next time, they'll bill us for their time! And while they're great for a laugh and a float in the tub, their true genius lies in helping us find those elusive coding mistakes. Just remember, if the duck starts talking back, it might be time for a coffee break!</p>
+            </div>
+        </main>
+    </div>
+    
+    <section id="duck-section">
+        <div class="duck-text-button">
+            <div class="duck-text">
+                <b>ABOUT THIS PAGE:</b> This page serves as a guide for new developers to understand the importance of problem-solving techniques. By understanding the principles of <a href="https://en.wikipedia.org/wiki/Rubber_duck_debugging" style="font-style: italic; font-weight: bold; text-decoration: underline;">Rubber Duck Debugging</a>, developers can enhance their debugging skills and resolve issues more efficiently.
+            </div>
+            <button class="duck-button">DUCK BUTTON</button>
+        </div>    
         <div class="duck-image">
-            <img src="./resources/bird_2-removebg-preview.png" alt="duck image">
+            <img src="./resources/rubber-duck2.png" alt="duck image" width="450px" height="500px">
         </div>
     </section>
+    
 
-    <section class="emergency-section">
-        <h2>In case of Emergeny click on:</h2>
+    <section id="emergency-section">
+        <h2>In case of Emergency click on:</h2>
     </section>
 
   <section class="emergency-container__wrapper">
     <section class="emergency-container">
-        <div class="discord-container">
-            <img width="128" height="128" src="https://img.icons8.com/nolan/128/discord.png" alt="discord">
-            <p>Discord Student Help</p>
+        <div class="six-containers">
+            <a href="https://discord.com">
+                <img width="128" height="128" src="https://img.icons8.com/nolan/128/discord.png" alt="discord">
+                <p>Discord Student Help</p>
+            </a>
         </div>
-        <div class="discord-container">
-            <img width="144" height="144" src="https://img.icons8.com/color/144/stackoverflow.png" alt="stackoverflow">
-            <p>Stack Overflow</p>
+        <div class="six-containers">
+            <a href="https://stackoverflow.com">
+                <img width="144" height="144" src="https://img.icons8.com/color/144/stackoverflow.png" alt="stackoverflow">
+                <p>Stack Overflow</p>
+            </a>
         </div>
-        <div class="discord-container">
-            <img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/external-firefox-a-free-and-open-source-web-browser-developed-by-the-mozilla-foundation-logo-bold-tal-revivo.png" alt="external-firefox-a-free-and-open-source-web-browser-developed-by-the-mozilla-foundation-logo-bold-tal-revivo">
-            <p>MDN</p>
+        <div class="six-containers">
+            <a href="https://developer.mozilla.org">
+                <img width="96" height="96" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/external-firefox-a-free-and-open-source-web-browser-developed-by-the-mozilla-foundation-logo-bold-tal-revivo.png" alt="external-firefox-a-free-and-open-source-web-browser-developed-by-the-mozilla-foundation-logo-bold-tal-revivo">
+                <p>MDN</p>
+            </a>
         </div>
-        <div class="discord-container">
-            <img width="128" height="128" src="./resources/w3.png" alt="discord">
-            <p>W3</p>
+        <div class="six-containers">
+            <a href="https://www.w3.org/">
+                <img width="128" height="128" src="./resources/w3.png" alt="w3">
+                <p>W3</p>
+            </a>
         </div>
-        <div class="discord-container">
-            <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/medium-logo.png" alt="medium-logo">
-            <p>Medium</p>
+        <div class="six-containers">
+            <a href="https://medium.com">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/medium-logo.png" alt="medium-logo">
+                <p>Medium</p>
+            </a>
         </div>
-        <div class="discord-container">
-            <img width="100" height="100" src="https://img.icons8.com/ios/100/microphone.png" alt="microphone">
-            <p>Podcast</p>
+        <div class="six-containers">
+            <a href="https://www.joerogan.com/">
+                <img width="100" height="100" src="https://img.icons8.com/ios/100/microphone.png" alt="microphone">
+                <p>Podcast</p>
+            </a>
         </div>
+        
     </section>
   </section>    
  
-
   <footer>
-    <section class="contact-us__wrapper">
+    <section id="contact-us__wrapper">
         <h3>Contact us</h3>
         <label for="email"></label>
         <input type="text" name="email" id="email" placeholder="Email..." required>
+        
         <label for="message"></label>
-        <textarea id="message" rows="10" placeholder="Type your message and our duck will gladly help you"></textarea>
+        <textarea id="message" rows="5" placeholder="Type your message and our duck will gladly help you!"></textarea>
         <button type="submit" class="contact-button">Submit</button>
         <h6>Proudly created by <b>Patricia</b></h6>
         <div class="profile-picture">
             <img src="./resources/profile.png" alt="Profile picture" width="50px">
         </div>
     </section>
-
-
-
-
   </footer>
     
 </body>
